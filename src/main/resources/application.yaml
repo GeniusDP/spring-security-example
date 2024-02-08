@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/zaranik
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+jwt:
+  secret: dfhYUIvfdhvh47542br2yfb23urg487vfshavhdUVUYFvda
+  access-token-expiration-ms: 900000
